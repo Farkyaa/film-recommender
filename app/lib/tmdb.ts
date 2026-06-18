@@ -15,7 +15,7 @@ export interface Movie {
   popularity?: number;
   vote_count?: number;
   score?: number;
-  rank?: number; // Добавляем поле rank как опциональное
+  rank?: number; 
   _genreScore?: number;
   _ratingScore?: number;
   _popularityScore?: number;
